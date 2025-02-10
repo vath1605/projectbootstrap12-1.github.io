@@ -25,3 +25,24 @@ li{
         color: var(--green-color);
     }
 }
+.myCard1{
+    transition: all 200ms ease-in-out;
+    svg{
+        color: var(--green-color);
+    }
+}
+.myCard1:hover{
+    background-color: var(--green-color) !important;
+    color: var(--bg-color) !important;
+    svg{
+        color: var(--bg-color);
+    }
+}
+.myBtn3{
+    background-color: var(--green-color) !important;
+}
+.myDiv{
+    ul{
+        list-style-image: url(../assets/icon/icCheck.png);
+    }
+}
