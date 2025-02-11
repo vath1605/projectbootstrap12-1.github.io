@@ -46,3 +46,41 @@ li{
         list-style-image: url(../assets/icon/icCheck.png);
     }
 }
+.myBtn4{
+    background-color: var(--bg-color) !important;
+    color: var(--green-color) !important;
+    font-size: 12px !important;
+}
+.mySvg{
+    width: 65px !important;
+    height: 65px !important;
+    background-color: var(--green-color);
+    display: grid;
+    place-items: center;
+}
+.myCard3{
+    border-radius: 20px !important;
+    background-color: white !important;
+    transition: all 200ms ease-in-out;
+    a{
+        transition: all 200ms ease-in-out;
+    }
+}
+.myCard3:hover{
+    border-radius: 20px !important;
+    background-color: white !important;
+    transform: translateY(-6px);
+    a{
+        color: var(--green-color) !important;
+    }
+}
+.myBg{
+    background-color: var(--green-color) !important;
+    border-radius: 30px;
+}
+.bg2{
+    background-color: var(--bg-color) !important;
+    .myBtn4{
+        background-color: #cfedc8 !important;
+    }
+}
